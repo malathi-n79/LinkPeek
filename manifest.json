@@ -1,0 +1,52 @@
+{
+  "manifest_version": 3,
+  "name": "LinkPeek",
+  "short_name": "LinkPeek",
+  "version": "0.0.0.2",
+  "description": "Preview links without clicking - hover, peek, decide!",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "32": "icon32.png",
+      "128": "icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "128": "icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*/*"
+      ],
+      
+      "js": [
+        "popper.min.js",
+        "tippy-bundle.umd.min.js",
+        "script.js"
+      ],
+      "css": [
+        "linkpeek.css"
+      ]
+    }
+  ],
+  "permissions": [
+    "declarativeNetRequest"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "declarative_net_request": {
+    "rule_resources": [{
+      "id": "ruleset_1",
+      "enabled": true,
+      "path": "rules.json"
+    }]
+  }
+}

@@ -1,0 +1,85 @@
+.insyd-preview-container {
+    position: fixed;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    z-index: 9999999;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+    min-height: 150px;
+    transition: box-shadow 0.2s ease;
+}
+
+.insyd-preview-container:hover {
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.insyd-preview-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+    background-color: #6c47ff;
+    color: white;
+    cursor: move;
+    user-select: none;
+}
+
+.insyd-preview-title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.insyd-preview-controls {
+    display: flex;
+    gap: 8px;
+}
+
+.insyd-preview-close {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+.insyd-preview-close:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.insyd-preview-content {
+    flex: 1;
+    overflow: hidden;
+    position: relative;
+}
+
+.linkpeek-resize-handle {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 16px;
+    height: 16px;
+    cursor: nwse-resize;
+    background: linear-gradient(135deg, transparent 50%, #6c47ff 50%);
+    z-index: 10;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+}
+
+.linkpeek-resize-handle:hover {
+    opacity: 1;
+}
