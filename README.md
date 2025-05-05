@@ -38,6 +38,23 @@
 - 🪟 Popup window opens showing link content
 - ↔️ Resizable preview from bottom-right corner
 
+---
+
+## 📸 Screenshots
+
+- **View YouTube Video Without Clicking**  
+  ![LinkPeek Screenshot 1](screenshots/image1.png)  
+  This screenshot demonstrates how you can view any YouTube video without clicking on the link, using the hover-to-preview feature.
+
+- **View Website Without Clicking**  
+  ![LinkPeek Screenshot 2](screenshots/image2.png)  
+  This screenshot shows how you can view a website without clicking on the link, showcasing the instant preview capability.
+
+---
+
+## 🌐 Website
+
+For more information, visit our [website](https://yourwebsite.com).
 
 ---
 
@@ -50,13 +67,13 @@ Some websites don’t allow their pages to be embedded in iframes (you might see
 ## 👤 Made By
 
 Crafted with 💙 by **[Malathi N]**  
-[GitHub](https://github.com/MALATHI-N79) 
+[GitHub](https://github.com/malathi-n79) 
 
 ---
 
-## 📃 License
+## License
 
-MIT License • Free for personal and commercial use
+This project is licensed under the [MIT License](LICENSE).
 
 ---
 
