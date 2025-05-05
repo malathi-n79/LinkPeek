@@ -56,7 +56,7 @@ var logo = document.createElement('span');
 logo.innerHTML = '🔍';
 logo.style.fontSize = '16px';
 title.appendChild(logo);
-title.appendChild(document.createTextNode('InSyd Preview'));
+title.appendChild(document.createTextNode('LinkPeek'));
 
 // Create controls
 var controls = document.createElement('div');
