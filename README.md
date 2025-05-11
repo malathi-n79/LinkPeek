@@ -2,6 +2,8 @@
 
 **LinkPeek** is your new favorite Chrome extension that lets you **instantly preview links** without ever clicking them. Just hover over any link, and a smart little bubble appears — float over that, and *boom*, you’re peeking into the page right there, right then.
 
+🌐 Website: 🔗✨ [Click to view the website demo ➡️🌍](https://link-peek.vercel.app/)
+
 > 🎯 No more opening tabs. No more jumping back and forth. Just effortless, instant link previews.
 
 ---
@@ -52,9 +54,7 @@
 
 ---
 
-## 🌐 Website
-
-For more information, visit our [website](https://yourwebsite.com).
+🌐 Website: 🔗✨ [Click to view the website demo ➡️🌍](https://link-peek.vercel.app/)
 
 ---
 
@@ -76,6 +76,7 @@ Crafted with 💙 by **[Malathi N]**
 This project is licensed under the [MIT License](LICENSE).
 
 ---
+
 
 ## 🚀 Ready to Browse Smarter?
 
